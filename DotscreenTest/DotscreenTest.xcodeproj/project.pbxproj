@@ -117,12 +117,9 @@
 		A07ACD05288C1B2400FDCC48 /* DotscreenTest */ = {
 			isa = PBXGroup;
 			children = (
-				A07ACD06288C1B2400FDCC48 /* AppDelegate.swift */,
-				A07ACD08288C1B2400FDCC48 /* SceneDelegate.swift */,
+				A07ACD50288C407F00FDCC48 /* Application */,
 				A07ACD3D288C1FE200FDCC48 /* Common */,
 				A07ACD38288C1C6400FDCC48 /* Screens */,
-				A07ACD0F288C1B2600FDCC48 /* Assets.xcassets */,
-				A07ACD11288C1B2600FDCC48 /* LaunchScreen.storyboard */,
 				A07ACD14288C1B2600FDCC48 /* Info.plist */,
 			);
 			path = DotscreenTest;
@@ -192,6 +189,17 @@
 				A07ACD4C288C2A6200FDCC48 /* UIColor+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A07ACD50288C407F00FDCC48 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A07ACD06288C1B2400FDCC48 /* AppDelegate.swift */,
+				A07ACD08288C1B2400FDCC48 /* SceneDelegate.swift */,
+				A07ACD0F288C1B2600FDCC48 /* Assets.xcassets */,
+				A07ACD11288C1B2600FDCC48 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
