@@ -54,7 +54,7 @@ class GameViewModel : GameViewModelProtocol {
     var cellPlayedBy: [Int] = []
     
     init() {
-        let gameEndDateValue = Date().timeIntervalSince1970 + 180
+        let gameEndDateValue = Date().timeIntervalSince1970 + 5
         gameEndDate = Date(timeIntervalSince1970: gameEndDateValue)
         
         initCellPlayedBy()
@@ -136,11 +136,11 @@ class GameViewModel : GameViewModelProtocol {
     
     func checkWinnerOfGame() -> String {
         if playerOneScore > playerTwoScore {
-            return "The player One has won"
+            return "Winner: Player 1 \(playerOneScore)/\(playerTwoScore)!"
         } else if playerOneScore < playerTwoScore {
-            return "The player Two has won"
+            return "Winner: Player 2 \(playerTwoScore)/\(playerOneScore)!"
         } else {
-            return "Draw, no one has won"
+            return "Draw: There is no winner !"
         }
     }
     
