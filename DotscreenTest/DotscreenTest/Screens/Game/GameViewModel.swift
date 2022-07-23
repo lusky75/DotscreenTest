@@ -54,7 +54,7 @@ class GameViewModel : GameViewModelProtocol {
     var cellPlayedBy: [Int] = []
     
     init() {
-        let gameEndDateValue = Date().timeIntervalSince1970 + 5
+        let gameEndDateValue = Date().timeIntervalSince1970 + 180
         gameEndDate = Date(timeIntervalSince1970: gameEndDateValue)
         
         initCellPlayedBy()
